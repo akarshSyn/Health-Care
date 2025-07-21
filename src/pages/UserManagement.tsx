@@ -8,8 +8,6 @@ import { useToast } from "@/hooks/use-toast";
 import BackButton from "@/components/BackButton";
 import AddUserDialog from "@/components/AddUserDialog";
 import EditUserDialog from "@/components/EditUserDialog";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Label } from "@/components/ui/label";
 
 interface User {
   _id: string;

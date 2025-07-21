@@ -23,6 +23,7 @@ const createSuperAdmin = async () => {
       name: 'Super Administrator',
       email: 'superadmin@healthcare.com',
       password: '123456',
+      
       phone: '+1234567890',
       role: 'super_admin',
       address: {
